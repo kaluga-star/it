@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс по созданию Telegram ботов на JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="src/img/bot.jpg" alt="logo" width="200px">
+        </div>
+        <div class="text">
+        <h1>Учебный курс по созданию Telegram ботов на JavaScript</h1>
+        <p>Научитесь создавать мощных ботов для Telegram с нуля!</p>
+         </div>
+       
+        <!-- <a href="#registration" class="btn">Записаться на курс</a> -->
+    </header>
+
+    <section id="about">
+        <h2>О курсе</h2>
+        <p>Этот курс предназначен для всех, кто хочет научиться создавать Telegram ботов на JavaScript. Вы получите практические знания и навыки, которые помогут Вам в разработке собственных ботов. В течение курса Вы изучите все основы работы с Telegram API, научитесь разрабатывать различные функции для ботов.</p>
+       <p>Курс будет длиться 4 недели, занятия проходят в июне, 2 раза в неделю, в среду и пятницу в 18:00 по московскому времени. Вы сможете получить сертификат о прохождении курса после защиты итогового проекта.</p>
+        <p>Требования к обучающимся: старше 11 лет, наличие аккаунта в телеграмм, навыки работы с компьютером, желание развиваться в сфере разработки.</p>
+
+    </section>
+
+    <section id="curriculum">
+        <h2>Программа курса</h2>
+        <ul>
+            <li> Модуль 1: Введение в веб-разработку</li>
+            <li>Модуль 2: Основы JavaScript</li>
+            <li>Модуль 3: Разработка Telegram-ботов</li>
+            <li>Модуль 4: Дополнительные возможности Telegram-ботов</li>
+            <li>Заключение: Разработка собственного Telegram-бота с использованием всех изученных технологий.</li>
+           
+        </ul>
+    </section>
+
+    <section id="registration">
+        
+        <img src="src/img/bot02.jpg" alt="telegramm" >
+        <div class="text">
+        <h2>Предварительная регистрация</h2>
+        <form id="tg">
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+                <div class="form-group">
+                <label for="phone">Ваш номер телефона:</label>
+                <input type="text" id="phone" name="phone" required>
+             </div>
+                    <div class="form-group">
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit" class="btn" >Отправить</button>
+        </form>
+        <div id="success" class="success-message" style="display: none;"></div>
+    </div>
+</div>
+
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Курс по созданию Telegram ботов. Все права защищены.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="file/axios.min.js"></script>
+    <script src="file/script.js"></script>
+</body>
+</html>

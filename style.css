@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0078d4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    
+     
+}
+
+
+header .btn {
+    flex: 0 0 auto; /* Элемент с классом "btn" будет иметь фиксированную ширину и не будет занимать всю доступную ширину */
+}
+
+
+header img {
+    max-width: 100%; /* Ограничиваем ширину изображения */
+    height: auto; /* Поддерживаем пропорции изображения */
+}
+
+
+
+
+h1 {
+    margin: 0;
+}
+
+.btn {
+    background: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+стили для формы регистрации
+#tg {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0078d4;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ #registration{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-direction: row;
+    gap: 20px;
+       
+    }
+
+    p { line-height: 1.5; }  
+
+    ul{line-height: 1.5;}
+
+    
+   
